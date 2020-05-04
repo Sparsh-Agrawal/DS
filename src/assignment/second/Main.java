@@ -9,5 +9,7 @@ public class Main {
         PriorityQueue<Student> p = new PriorityQueue<>();
         Student s1 = new Student("abc", 7.5);
         p.add(s1);
+        Student s2 = new Student("def", 9.6);
+        p.add(s2);
     }
 }

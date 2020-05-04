@@ -30,7 +30,12 @@ public class MyGraph {
 
     //print matrix
     public void display() {
-        for ()
+        for (int i = 0;i<maxNodes;i++) {
+            for (int j=0;j<maxNodes;j++) {
+                System.out.println(adjacencyMatrix[i][j]+"\t");
+            }
+            System.out.println();
+        }
     }
 }
 

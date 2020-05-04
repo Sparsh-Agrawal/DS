@@ -25,6 +25,12 @@ public class MyGraph {
                 res = true;
             }
         }
+        return res;
+    }
+
+    //print matrix
+    public void display() {
+        for ()
     }
 }
 

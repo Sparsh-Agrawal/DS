@@ -14,5 +14,8 @@ public class Main {
         Student s3 = new Student("ghi" , 6.4);
         p.add(s3);
         System.out.println("Students in Priority Order");
+        while (!p.isEmpty()) {
+            System.out.println();
+        }
     }
 }
